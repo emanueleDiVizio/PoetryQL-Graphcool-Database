@@ -21,10 +21,11 @@ type Painter @model {
 type Portrait @model {
   id: ID! @isUnique
   image: String!
+  author: Author! @relation(name: "AuthorPortrait")
 }
 
 type Author @model {
   id: ID! @isUnique
   name: String!
-  portrait: Portrait!
+  portrait: Portrait! @relation(name: "AuthorPortrait")
 }
