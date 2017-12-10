@@ -1,6 +1,6 @@
-# PoetryQL-Graphcool-Server
+# PoetryQL-Graphcool-Database
 
-Graphcool server powering [the coolest server to fetch poetry in the world](https://github.com/emanueleDiVizio/PoetryQL-Server).
+Graphcool database powering [the coolest server to fetch poetry in the world](https://github.com/emanueleDiVizio/PoetryQL-Server).
 
 # Set up
 
